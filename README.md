@@ -1,4 +1,4 @@
-mesa-documentation
+MESA Documentation
 ==================
 
-MESA documentation for sleepdata.org
+Version controlled repository for MESA documentation on [sleepdata.org](http://sleepdata.org/datasets/mesa)
