@@ -24,3 +24,5 @@ Read more in the [Dataset Introduction](:pages_path:/dataset-introduction.md).
 When citing this dataset please use:
 
 1. [Dean, D. A., Goldberger, A. L., Mueller, R., Kim, M., Rueschman, M., Mobley, D., Sahoo, S. S., Jayapandian, C. P., Cui, L., Morrical, M. G., Surovec, S., Zhang, G. Q., & Redline, S. (2016). Scaling Up Scientific Discovery in Sleep Medicine: The National Sleep Research Resource. *Sleep, 5,* 1151–1164](http://www.ncbi.nlm.nih.gov/pubmed/27070134)
+
+The Multi-Ethnic Study of Atherosclerosis (MESA) is supported by contracts N01-HC-95159 through N01-HC-95169 from the National Heart, Lung, and Blood Institute (NHLBI) at the National Institutes of Health. MESA Sleep was supported by NHLBI R01 L098433.
