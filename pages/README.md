@@ -12,7 +12,12 @@ Read more in the [Dataset Introduction](:pages_path:/dataset-introduction.md).
 
 ## Protocols and Manuals
 
-- Documentation
+- [MESA Sleep Data Documentation Guide](:files_path:/documentation/MESA_Sleep_Data_Documentation_Guide.pdf)
+- Actigraphy Manual of Procedures
+- Actigraphy Scoring Manual
+- Polysomnography Manual of Procedures
+- Polysomnography Scoring Manual
+- MESA Sleep Dataset Descriptions
 
 ## Equipment
 - [Montage and Sampling Rate Information](:pages_path:/equipment/montage-and-sampling-rate-information.md)
