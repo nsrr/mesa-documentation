@@ -14,4 +14,4 @@ For the NSRR, we have chosen key datasets and variables from the core MESA datas
 
 ## Subject Identifier
 
-Datasets and raw data files are keyed on the identifier ([`mesaid`](:pages_path:/variables/mesaid)) used in [MESA BioLINCC data releases](https://biolincc.nhlbi.nih.gov/studies/mesa/).
+Datasets and raw data files are keyed on the identifier ([`mesaid`](https://sleepdata.org/datasets/mesa/variables/mesaid)) used in [MESA BioLINCC data releases](https://biolincc.nhlbi.nih.gov/studies/mesa/).
