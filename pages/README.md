@@ -13,11 +13,11 @@ Read more in the [Dataset Introduction](:pages_path:/dataset-introduction.md).
 ## Protocols and Manuals
 
 - [MESA Sleep Data Documentation Guide](:files_path:/documentation/MESA_Sleep_Data_Documentation_Guide.pdf)
-- Actigraphy Manual of Procedures
-- Actigraphy Scoring Manual
-- Polysomnography Manual of Procedures
-- Polysomnography Scoring Manual
-- MESA Sleep Dataset Descriptions
+- [Actigraphy Manual of Procedures](:files_path:/documentation/MESA_Sleep_Actigraphy_Manual_of_Procedures.pdf)
+- [Actigraphy Scoring Manual](:files_path:/documentation/MESA_Sleep_Actigraphy_Scoring_Manual.pdf)
+- [Polysomnography Manual of Procedures](:files_path:/documentation/MESA_Sleep_Polysomnography_Manual_of_Procedures.pdf)
+- [Polysomnography Scoring Manual](:files_path:/documentation/MESA_Sleep_Polysomnography_Scoring_Manual.pdf)
+- [MESA Sleep Dataset Descriptions](:files_path:/documentation/dataset-descriptions)
 
 ## Equipment
 - [Montage and Sampling Rate Information](:pages_path:/equipment/montage-and-sampling-rate-information.md)
