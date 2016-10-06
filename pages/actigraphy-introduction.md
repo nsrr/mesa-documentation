@@ -10,7 +10,7 @@ The [documentation folder](:files_path:/documentation) contains manuals and in-d
 
 ## Variable Description
 
-Each epoch-by-epoch file contains 17 variables. The meanings of these variables are as follows:
+Each epoch-by-epoch file contains 14 columns/variables. The meanings of these variables are as follows:
 
 | Name          | Label                       | Units / Categories / Notes                  |
 | ------------- | --------------------------- | ------------------------------------------- |
