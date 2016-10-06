@@ -11,6 +11,7 @@ The [documentation folder](:files_path:/documentation) contains manuals and in-d
 Notes:
 
 - Dates have been removed. Each epoch contains a clock time.
+- Epochs without activity counts and/or light readings typically indicate offwrist time and/or the watch's failure to provide a valid measurement for that epoch.
 
 ## Variable descriptions
 
