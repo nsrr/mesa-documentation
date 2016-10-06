@@ -12,6 +12,7 @@ Notes:
 
 - Dates have been removed. Each epoch contains a clock time.
 - Epochs without activity counts and/or light readings typically indicate offwrist time and/or the watch's failure to provide a valid measurement for that epoch.
+- Be cognizant of excluded/invalid epochs when analyzing these data.
 
 ## Variable descriptions
 
