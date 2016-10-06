@@ -12,6 +12,8 @@ Notes:
 
 [Raw polysomnography data](:files_path:/polysomnography) is available for 2,056 MESA Sleep participants. Each recording has a signal file (.EDF) and two versions of the event scoring and epoch staging annotations (.XML).
 
-1. **[EDF](:files_path:/polysomnography/edfs)** - Signal files in the [European Data Format](http://www.edfplus.info/). Exported from Compumedics Profusion.
-2. **[XML (Profusion)](:files_path:/polysomnography/annotations-events-profusion)** - Annotation files exported from Compumedics Profusion.
-3. **[XML (NSRR)](:files_path:/polysomnography/annotations-events-nsrr)** - Annotation files processed by the [EDF Editor and Translator](https://www.sleepdata.org/tools/edf-editor-and-translator)
+1. **[EDF](:files_path:/polysomnography/edfs)** - Signal files in the [European Data Format](http://www.edfplus.info/) exported from Compumedics Profusion.
+2. **[XML (Profusion)](:files_path:/polysomnography/annotations-events-profusion)** - Annotation files exported from Compumedics Profusion.<sup>*</sup>
+3. **[XML (NSRR)](:files_path:/polysomnography/annotations-events-nsrr)** - Annotation files processed in the [EDF Editor and Translator](https://www.sleepdata.org/tools/edf-editor-and-translator) tool.
+
+<sup>[The Compumedics Profusion annotation format is described in more detail here.](https://www.sleepdata.org/tools/edf-editor-and-translator/pages/2-11-compumedics-format.md)</sup>

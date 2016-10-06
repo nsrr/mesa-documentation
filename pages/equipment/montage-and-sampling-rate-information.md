@@ -1,8 +1,8 @@
-## Montage and Sampling Rate Information
+## Montage and sampling rate information
 
 The settings below represent the standards set at the beginning of the project. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
 
-|  Channel   |        Channel Derivation         |  Sampling Rate (Hz)  |  Hardware Filters (Hz)  |              Sensor Type                 |
+|  Channel   |        Channel derivation         |  Sampling rate (Hz)  |  Hardware filters (Hz)  |              Sensor type                 |
 |:----------:|:---------------------------------:|:--------------------:|:-----------------------:|:----------------------------------------:|
 | EKG        | ECG-/ECG+                         |  256                 |                         | Ag/AgCl patch                            |
 | E1         | EOG-L/FPz                         |  256                 |  Low Pass 100           | Gold cup electrode                       |

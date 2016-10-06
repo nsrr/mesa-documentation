@@ -33,4 +33,4 @@ Each epoch-by-epoch file contains 14 columns/variables. The meanings of these va
 | `dayofweek`   | Day of the week             | 1 = Sunday / 2 = Monday / etc.              |
 | `day`         | Incrementing day number     | Counter turns over at midnight              |
 
-<sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.
+<sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.</sup>
