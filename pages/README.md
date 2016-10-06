@@ -4,7 +4,7 @@
 
 MESA Sleep data are made available in collaboration with the [MESA Coordinating Center](https://mesa-nhlbi.org/default.aspx). We have made polysomnography and actigraphy raw data available for download, along with key sets of MESA Sleep covariates. If you wish to access data from other MESA exams, please [visit the BioLINCC MESA Collection](https://biolincc.nhlbi.nih.gov/studies/mesa/) or contact the [MESA Coordinating Center](https://mesa-nhlbi.org/default.aspx).
 
-## Dataset Download
+## Data overview
 
 **[/actigraphy](:files_path:/actigraphy)** ([introduction](:pages_path:/actigraphy-introduction.md))<br/> Wrist-worn actigraphy data from the MESA Sleep exam.
 
@@ -12,7 +12,7 @@ MESA Sleep data are made available in collaboration with the [MESA Coordinating 
 
 **[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Overnight polysomnography (PSG) data from the MESA Sleep exam.
 
-## Protocols and Manuals
+## Protocols and manuals
 
 - [MESA Sleep Data Documentation Guide](:files_path:/documentation/MESA_Sleep_Data_Documentation_Guide.pdf)
 - [Actigraphy Manual of Procedures](:files_path:/documentation/MESA_Sleep_Actigraphy_Manual_of_Procedures.pdf)
@@ -24,11 +24,11 @@ MESA Sleep data are made available in collaboration with the [MESA Coordinating 
 ## Equipment
 - [Montage and Sampling Rate Information](:pages_path:/equipment/montage-and-sampling-rate-information.md)
 
-## Recent Changes
+## Recent changes
 
 Find a complete list of changes in the [CHANGELOG.md](:pages_path:/CHANGELOG.md)
 
-## Publication Links
+## Publication links
 
 - [Related Publications](:pages_path:/publications.md)
 

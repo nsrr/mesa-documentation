@@ -1,14 +1,18 @@
-# Actigraphy Introduction
+# Actigraphy introduction
 
 MESA Sleep recruited 2,237 participants to wear wrist-worn actigraphy devices ([Actiwatch Spectrum, Philips Respironics](http://www.usa.philips.com/healthcare/product/HC1046964/actiwatch-spectrum-activity-monitor)) between 2010 and 2013. Participants were instructed to wear the watch for a week. Records were scored by a trained technician at the Boston Sleep Reading Center.
 
 The [documentation folder](:files_path:/documentation) contains manuals and in-depth descriptions of the actigraphy devices and scoring process used in MESA Sleep. Further, the [`mesa-sleep` dataset](:files_path:/datasets) contains summary phenotype data from the actigraphy data collection.
 
-## Epoch-by-epoch Files
+## Epoch-by-epoch files
 
 [Epoch-by-epoch (EBE) data files (CSV)](:files_path:/actigraphy) have been created for 2,159 participants with actigraphy data. Each row in these files represents 30 seconds worth of summary data from the actigraphy device.
 
-## Variable Description
+Notes:
+
+- Dates have been removed. Each epoch contains a clock time.
+
+## Variable descriptions
 
 Each epoch-by-epoch file contains 14 columns/variables. The meanings of these variables are as follows:
 
