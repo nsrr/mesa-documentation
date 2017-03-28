@@ -16,24 +16,25 @@ Notes:
 
 ## Variable descriptions
 
-Each epoch-by-epoch file contains 14 columns/variables. The meanings of these variables are as follows:
+Each epoch-by-epoch file contains 15 columns/variables. The meanings of these variables are as follows:
 
-| Name          | Label                       | Units / Categories / Notes                  |
-| ------------- | --------------------------- | ------------------------------------------- |
-| `mesaid`      | Random BioLINCC ID          |                                             |
-| `line`        | Epoch line number           |                                             |
-| `linetime`    | Clock time                  | HH:MM:SS                                    |
-| `offwrist`    | Off wrist indicator         | 0 = On wrist / 1 = Off wrist                |
-| `activity`    | Activity count              |                                             |
-| `marker`      | Event marker indicator      | 0 = Marker not pressed / 1 = Marker pressed |
-| `whitelight`  | White light                 | Lux                                         |
-| `redlight`    | Red light                   | Microwatts per square centimeter            |
-| `greenlight`  | Green light                 | Microwatts per square centimeter            |
-| `bluelight`   | Blue light                  | Microwatts per square centimeter            |
-| `wake`        | Awake indicator<sup>*</sup> | 0 = Asleep / 1 = Awake                      |
-| `interval`    | Interval type<sup>*</sup>   |                                             |
-| `dayofweek`   | Day of the week             | 1 = Sunday / 2 = Monday / etc.              |
-| `day`         | Incrementing day number     | Counter turns over at midnight              |
+| Name                | Label                               | Units / Categories / Notes                  |
+| ------------------- | ----------------------------------- | ------------------------------------------- |
+| `mesaid`            | Random BioLINCC ID                  |                                             |
+| `line`              | Epoch line number                   |                                             |
+| `linetime`          | Clock time                          | HH:MM:SS                                    |
+| `offwrist`          | Off wrist indicator                 | 0 = On wrist / 1 = Off wrist                |
+| `activity`          | Activity count                      |                                             |
+| `marker`            | Event marker indicator              | 0 = Marker not pressed / 1 = Marker pressed |
+| `whitelight`        | White light                         | Lux                                         |
+| `redlight`          | Red light                           | Microwatts per square centimeter            |
+| `greenlight`        | Green light                         | Microwatts per square centimeter            |
+| `bluelight`         | Blue light                          | Microwatts per square centimeter            |
+| `wake`              | Awake indicator<sup>*</sup>         | 0 = Asleep / 1 = Awake                      |
+| `interval`          | Interval type<sup>*</sup>           |                                             |
+| `dayofweek`         | Day of the week                     | 1 = Sunday / 2 = Monday / etc.              |
+| `daybymidnight`     | Incrementing day number (midnight)  | Counter turns over at midnight              |
+| `daybynoon`         | Incrementing day number (noon)      | Counter turns over at noon                  |
 
 <sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.</sup>
 
