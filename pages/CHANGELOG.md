@@ -1,3 +1,7 @@
+### March 28, 2017
+
+- Add notes to actigraphy introduction about data updates
+
 ### December 14, 2016
 
 - Update polysomnography files for MESA ID 2416 (signal label mismatches)

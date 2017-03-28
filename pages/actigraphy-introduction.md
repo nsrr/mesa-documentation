@@ -38,6 +38,16 @@ Each epoch-by-epoch file contains 15 columns/variables. The meanings of these va
 
 <sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.</sup>
 
+## History / changelog
+
+*March 2017*
+- Change `day` variable to `daybymidnight` and add new `daybynoon` variable
+- Replace EBE data for six subjects: 0628, 1420, 1842, 2551, 2887, 5263
+  - Subjects had data from multiple actigraphy recordings combined inadvertently. Files were modified to only keep one of the recordings.
+
+*October 2016*
+- Upload actigraphy epoch-by-epoch data to sleepdata.org
+
 ## Questions?
 
 Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
