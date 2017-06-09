@@ -1,3 +1,11 @@
+### June 9, 2017
+
+- Add XML annotation note to PSG introduction
+
+### April 12, 2017
+
+- Release 0.2.0 datasets
+
 ### March 28, 2017
 
 - Add notes to actigraphy introduction about data updates
