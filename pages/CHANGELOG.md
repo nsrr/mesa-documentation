@@ -1,3 +1,7 @@
+### October 24, 2017
+
+- Two EDF/XML file pairs replaced for subjects 2852 and 3003
+
 ### June 9, 2017
 
 - Add XML annotation note to PSG introduction

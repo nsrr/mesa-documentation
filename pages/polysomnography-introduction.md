@@ -22,6 +22,9 @@ NSRR XML files can be overlaid onto EDF signal files using the [EDF Viewer tool]
 
 ## History / changelog
 
+*October 2017*
+- EDF and XML files reexported for subjects 2852 and 3003. An issue was found with files inadvertantly being duplicated.
+
 *May 2016*
 - Polysomnography data uploaded to sleepdata.org after exports from Compumedics Profusion
 
