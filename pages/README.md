@@ -24,6 +24,10 @@ MESA Sleep data are made available in collaboration with the [MESA Coordinating 
 ## Equipment
 - [Montage and Sampling Rate Information](:pages_path:/equipment/montage-and-sampling-rate-information.md)
 
+## Heart Rate Variability (HRV) Analysis
+
+Read about the [methods, validation, and results for the NSRR HRV analysis efforts](:pages_path:/hrv-analysis.md). [Included variables can be browsed here](https://sleepdata.org/datasets/mesa/variables?folder=Heart+Rate+Variability).
+
 ## Recent changes
 
 Find a complete list of changes in the [CHANGELOG.md](:pages_path:/CHANGELOG.md)

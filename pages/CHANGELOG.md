@@ -1,3 +1,8 @@
+### January 16, 2018
+
+- Release 0.3.0 dataset
+- Add Heart Rate Variability (HRV) analysis documentation
+
 ### October 24, 2017
 
 - Two EDF/XML file pairs replaced for subjects 2852 and 3003
