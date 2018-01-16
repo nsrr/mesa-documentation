@@ -37,12 +37,12 @@ The frequency domain measures include:
 - **LF** (low frequency power: the NN interval spectral power between 0.04 and 0.15 Hz)
 - **HF** (high frequency power: the NN interval spectral power between 0.15 and 0.4 Hz)
 - **LF/HF ratio** (the ratio of low to high frequency power)
-- **HFn** – (normalized HF, ratio HF/(HF+LF))
-- **LFn** – (normalized LF, ratio LF/(HF+LF))
+- **HFn** (normalized HF, ratio HF/(HF+LF))
+- **LFn** (normalized LF, ratio LF/(HF+LF))
 
 Traditionally frequency domain measures are calculated by resampling the original NN interval series and then applying the fast Fourier transform. This resampling, however, can cause an attenuation in the high frequency components. To eliminate the need for evenly sampled data required by the standard Fourier Transform, frequency domain spectra can be calculated using the Lomb periodogram for unevenly sampled data.
 
-Although the long term (24-hour) statistics of SDANN, SDNNIDX and ULF power can be calculated for shorter data lengths they will become increasingly unreliable. For short term data (less than 15 minutes in length) only the time domain measures of AVNN, SDNN, rMSSD and pNN10, pNN20, pNN30, pNN40 and pNN50,  and the frequency domain measures of total power, VLF power, LF power, HF power and LF/HF ratio are computed.
+Although the long term (24-hour) statistics of SDANN, SDNNIDX and ULF power can be calculated for shorter data lengths they will become increasingly unreliable. For short term data (less than 15 minutes in length) only the time domain measures of AVNN, SDNN, rMSSD and pNN10, pNN20, pNN30, pNN40 and pNN50, and the frequency domain measures of total power, VLF power, LF power, HF power and LF/HF ratio are computed.
 
 ## Dataset Structure
 
