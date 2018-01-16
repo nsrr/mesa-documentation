@@ -46,7 +46,7 @@ Although the long term (24-hour) statistics of SDANN, SDNNIDX and ULF power can 
 
 ## Dataset Structure
 
-Results have been posted for HRV analysis in the [primary MESA Sleep dataset](:files_path:/datasets/hrv-analysis). Datasets are keyed on `OBF_PPTID`.
+Results have been posted for HRV analysis in the [primary MESA Sleep dataset](:files_path:/datasets/hrv-analysis). Datasets are keyed on `mesaid`.
 
 ## References
 
