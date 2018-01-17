@@ -1,3 +1,7 @@
+### January 17, 2018
+
+- Add description of Somte beat-by-beat files
+
 ### January 16, 2018
 
 - Release 0.3.0 dataset
