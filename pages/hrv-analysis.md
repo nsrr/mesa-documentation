@@ -71,7 +71,7 @@ Results have been posted for HRV analysis in the [primary MESA Sleep dataset](:f
 | `TPoint`                            | Sample Number indicating peak of the T wave (-1 if no T wave detected)                                                                                                                |
 | `TStart`                            | Sample Number indicating start of the T wave                                                                                                                                          |
 | `TEnd`                              | Sample Number indicating end of the T wave                                                                                                                                            |
-| `TemplateID`                        | The ID of the template to which this beat has been assigned (-1 if not assigned to a template)                                                                                        |
+| <nobr>`TemplateID`</nobr>                        | The ID of the template to which this beat has been assigned (-1 if not assigned to a template)                                                                                        |
 | `seconds`                           | Number of seconds from beginning of recording to R-point (Rpoint / sampling rate (256))                                                                                               |
 | `stage`                             | Sleep stage merged from [polysomnography XML staging annotations](:pages_path:/polysomnography-introduction.md) (0 = Wake / 1 = Stage 1 / 2 = Stage 2 / 3 or 4 = Stage 3/4 / 5 = REM) |
 
