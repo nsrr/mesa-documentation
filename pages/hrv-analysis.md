@@ -52,28 +52,28 @@ Results have been posted for HRV analysis in the [primary MESA Sleep dataset](:f
 
 [Individual CSV files are available with R-points](:files_path:/polysomnography/annotations-rpoints) for each heartbeat. These annotations were reviewed by a trained technician after exporting from the Compumedics Somte software. ECG was sampled at 256 Hz.
 
-| Name                                | Label (with Units / Notes)                                                                                                                                                            |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `epoch`                             | Epoch (30 second) number                                                                                                                                                              |
-| `RPoint`                            | Sample Number indicating R Point (peak of QRS)                                                                                                                                        |
-| `Start`                             | Sample Number indicating start of beat                                                                                                                                                |
-| `End`                               | Sample Number indicating end of beat                                                                                                                                                  |
-| `STLevel1`                          | Level of ECG 1 in Raw data ( 65536 peak to peak rawdata = 10mV peak to peak)                                                                                                          |
-| `STSlope1`                          | Slope of ECG 1 stored as and int to convert to a double divide raw value by 1000.0                                                                                                    |
-| `STLevel2`                          | Level of ECG 2 in Raw data ( 65536 peak to peak rawdata = 10mV peak to peak)                                                                                                          |
-| `STSlope2`                          | Slope of ECG 2 stored as and int to convert to a double divide raw value by 1000.0                                                                                                    |
-| `Manual`                            | (True / False) True if record was manually inserted                                                                                                                                   |
-| `Type`                              | Type of beat (0 = Artifact / 1 = Normal Sinus Beat / 2 = VE / 3 = SVE)                                                                                                                |
-| `Class`                             | This Field is no longer used                                                                                                                                                          |
-| `PPoint`                            | Sample Number indicating peak of the P wave (-1 if no P wave detected)                                                                                                                |
-| `PStart`                            | Sample Number indicating start of the P wave                                                                                                                                          |
-| `PEnd`                              | Sample Number indicating end of the P wave                                                                                                                                            |
-| `TPoint`                            | Sample Number indicating peak of the T wave (-1 if no T wave detected)                                                                                                                |
-| `TStart`                            | Sample Number indicating start of the T wave                                                                                                                                          |
-| `TEnd`                              | Sample Number indicating end of the T wave                                                                                                                                            |
-| <nobr>`TemplateID`</nobr>                        | The ID of the template to which this beat has been assigned (-1 if not assigned to a template)                                                                                        |
-| `seconds`                           | Number of seconds from beginning of recording to R-point (Rpoint / sampling rate (256))                                                                                               |
-| `stage`                             | Sleep stage merged from [polysomnography XML staging annotations](:pages_path:/polysomnography-introduction.md) (0 = Wake / 1 = Stage 1 / 2 = Stage 2 / 3 or 4 = Stage 3/4 / 5 = REM) |
+| Name                      | Label (with Units / Notes)                                                                                                                                                            |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <nobr>`epoch`</nobr>      | Epoch (30 second) number                                                                                                                                                              |
+| <nobr>`RPoint`</nobr>     | Sample Number indicating R Point (peak of QRS)                                                                                                                                        |
+| <nobr>`Start`</nobr>      | Sample Number indicating start of beat                                                                                                                                                |
+| <nobr>`End`</nobr>        | Sample Number indicating end of beat                                                                                                                                                  |
+| <nobr>`STLevel1`</nobr>   | Level of ECG 1 in Raw data ( 65536 peak to peak rawdata = 10mV peak to peak)                                                                                                          |
+| <nobr>`STSlope1`</nobr>   | Slope of ECG 1 stored as and int to convert to a double divide raw value by 1000.0                                                                                                    |
+| <nobr>`STLevel2`</nobr>   | Level of ECG 2 in Raw data ( 65536 peak to peak rawdata = 10mV peak to peak)                                                                                                          |
+| <nobr>`STSlope2`</nobr>   | Slope of ECG 2 stored as and int to convert to a double divide raw value by 1000.0                                                                                                    |
+| <nobr>`Manual`</nobr>     | (True / False) True if record was manually inserted                                                                                                                                   |
+| <nobr>`Type`</nobr>       | Type of beat (0 = Artifact / 1 = Normal Sinus Beat / 2 = VE / 3 = SVE)                                                                                                                |
+| <nobr>`Class`</nobr>      | This Field is no longer used                                                                                                                                                          |
+| <nobr>`PPoint`</nobr>     | Sample Number indicating peak of the P wave (-1 if no P wave detected)                                                                                                                |
+| <nobr>`PStart`</nobr>     | Sample Number indicating start of the P wave                                                                                                                                          |
+| <nobr>`PEnd`</nobr>       | Sample Number indicating end of the P wave                                                                                                                                            |
+| <nobr>`TPoint`</nobr>     | Sample Number indicating peak of the T wave (-1 if no T wave detected)                                                                                                                |
+| <nobr>`TStart`</nobr>     | Sample Number indicating start of the T wave                                                                                                                                          |
+| <nobr>`TEnd`</nobr>       | Sample Number indicating end of the T wave                                                                                                                                            |
+| <nobr>`TemplateID`</nobr> | The ID of the template to which this beat has been assigned (-1 if not assigned to a template)                                                                                        |
+| <nobr>`seconds`</nobr>    | Number of seconds from beginning of recording to R-point (Rpoint / sampling rate (256))                                                                                               |
+| <nobr>`stage`</nobr>      | Sleep stage merged from [polysomnography XML staging annotations](:pages_path:/polysomnography-introduction.md) (0 = Wake / 1 = Stage 1 / 2 = Stage 2 / 3 or 4 = Stage 3/4 / 5 = REM) |
 
 ## References
 
