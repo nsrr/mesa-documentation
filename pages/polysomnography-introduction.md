@@ -22,6 +22,9 @@ NSRR XML files can be overlaid onto EDF signal files using the [EDF Viewer tool]
 
 ## History / changelog
 
+*June 2018*
+- EDF and XML files reexported for subjects 1013 and 2934. The original files were missing event and staging annotations.
+
 *October 2017*
 - EDF and XML files reexported for subjects 2852 and 3003. An issue was found with files inadvertantly being duplicated.
 
