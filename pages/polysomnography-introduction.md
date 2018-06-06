@@ -20,6 +20,10 @@ NSRR XML files can be overlaid onto EDF signal files using the [EDF Viewer tool]
 
 **Note:** Events using the `Unsure` tag are hypopneas with a >50% decrease in flow (AASM alternative definition).
 
+## Known issues
+
+- In the initial months of data collection, the Sleep Reading Center recognized that the thermistor signal was not reliable, so an equipment change was made to the ThermiSense (Salter) unit. The old configuration contained a "Therm" channel, while the new configuration contained an "Aux_AC" channel instead.
+
 ## History / changelog
 
 *June 2018*
