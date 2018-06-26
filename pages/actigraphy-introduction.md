@@ -38,7 +38,23 @@ Each epoch-by-epoch file contains 15 columns/variables. The meanings of these va
 
 <sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.</sup>
 
+## Actigraphy and polysomnography overlap
+
+Many researchers have asked about overlapping polysomnography (PSG) and actigraphy (ACT) data in the MESA dataset. All dates were removed from the data as part of the de-identification process. The NSRR team went back to the raw data to align the dates of the PSG and ACT data. [This dataset](:files_path:/overlap) provides a reference to individual rows in the ACT epoch-by-epoch CSV files that align with the concurrent start time of the subject's PSG recording.
+
+[The dataset](:files_path:/overlap) contains 4 variables.
+
+1. mesaid - MESA Subject Identifier (BioLINCC/NSRR)
+2. line - Epoch line number
+3. linetime - Epoch line time (hh:mm:ss)
+4. starttime_psg - Actual PSG study start time (source: STSTARTP5)
+
+The PSG start times were rounded to the nearest 30 seconds in order to match the ACT epoch line times. Import and merge the PSG XML annotations with the ACT epoch-by-epoch data, starting at the actigraphy epoch identified in [this dataset](:files_path:/overlap).
+
 ## History / changelog
+
+*June 2018*
+- Add information about how to look at overlapping PSG and ACT data
 
 *March 2017*
 - Change `day` variable to `daybymidnight` and add new `daybynoon` variable

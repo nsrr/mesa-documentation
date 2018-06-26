@@ -1,3 +1,7 @@
+### June 26, 2018
+
+- Add information about PSG/ACT overlap to [actigraphy introduction](:pages_path:/actigraphy-introduction.md)
+
 ### January 17, 2018
 
 - Add description of Somte beat-by-beat files
