@@ -47,7 +47,7 @@ Many researchers have asked about overlapping polysomnography (PSG) and actigrap
 1. mesaid - MESA Subject Identifier (BioLINCC/NSRR)
 2. line - Epoch line number
 3. linetime - Epoch line time (hh:mm:ss)
-4. starttime_psg - Actual PSG study start time (source: STSTARTP5)
+4. starttime_psg - Actual PSG study start time (source: [STSTARTP5](https://sleepdata.org/datasets/mesa/variables/ststartp5))
 
 The PSG start times were rounded to the nearest 30 seconds in order to match the ACT epoch line times. Import and merge the PSG XML annotations with the ACT epoch-by-epoch data, starting at the actigraphy epoch identified in [this dataset](:files_path:/overlap).
 
