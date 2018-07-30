@@ -1,3 +1,7 @@
+### July 30, 2018
+
+- Update citation and funding acknowledgement information on README
+
 ### June 26, 2018
 
 - Add information about PSG/ACT overlap to [actigraphy introduction](:pages_path:/actigraphy-introduction.md)
