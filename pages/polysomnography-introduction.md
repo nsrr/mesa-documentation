@@ -18,7 +18,15 @@ Notes:
 
 NSRR XML files can be overlaid onto EDF signal files using the [EDF Viewer tool](https://sleepdata.org/community/tools/nsrr-edf-viewer). For more information about the XML translation (mapping) process, review the files available on the [EDF Editor and Translator Releases page](https://github.com/nsrr/edf-editor-translator/releases).
 
-**Note:** Events using the `Unsure` tag are hypopneas with a >50% decrease in flow (AASM alternative definition).
+## Hypopnea event tags
+
+Hypopnea events are represented by two different tags in the XML annotation files. Events with the `Hypopnea` tag are hypopneas with a reduction in airflow between 30% and 50% from baseline levels. Events with the `Unsure` tag are hypopneas with a reduction in airflow greater than 50% from baseline levels.
+
+If interested in all hypopneas that have a 30% or more reduction in airflow, both event types should be included. If interested in events with greater reduction in airflow (>50%), use those that were labeled with the `Unsure` tag.
+
+The `Unsure` tag **does not represent uncertainty about the event**, but rather was the only custom tag available in the original polysomnography scoring program.
+
+Additional criteria can be applied to limit events based on associated desaturation and/or arousal.
 
 ## Known issues
 

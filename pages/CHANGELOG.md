@@ -1,3 +1,7 @@
+### December 28, 2018
+
+- Add note about hypopnea event tags to PSG introduction
+
 ### July 30, 2018
 
 - Update citation and funding acknowledgement information on README
