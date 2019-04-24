@@ -1,6 +1,6 @@
 # Dataset introduction
 
-The [MESA datasets](:files_path:/datasets) posted on the NSRR have gone through various post-processing steps in order to prepare the data for more widespread sharing. The datasets were based upon the [data prepared by the MESA Coordinating Center](https://mesa-nhlbi.org/). Changes and updates to the source data and variable definitions have been coordinated in the [mesa-data-dictionary repository](https://github.com/sleepepi/mesa-data-dictionary).
+The [MESA datasets](:files_path:/datasets) posted on the NSRR have gone through various post-processing steps in order to prepare the data for more widespread sharing. The datasets were based upon the [data prepared by the MESA Coordinating Center](https://mesa-nhlbi.org/). Changes and updates to the source data and variable definitions have been coordinated in the [mesa-data-dictionary repository](https://github.com/nsrr/mesa-data-dictionary).
 
 The [documentation folder](:files_path:/documentation) contains more detailed descriptions of the data collection protocols and source datasets.
 
