@@ -1,3 +1,7 @@
+### February 5, 2020
+
+- Added known issue to [polysomnography introduction](:pages_path:/polysomnography-introduction.md) about mismatched sleep times
+
 ### December 28, 2018
 
 - Add note about hypopnea event tags to PSG introduction

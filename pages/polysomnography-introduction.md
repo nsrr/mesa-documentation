@@ -31,6 +31,7 @@ Additional criteria can be applied to limit events based on associated desaturat
 ## Known issues
 
 - In the initial months of data collection, the Sleep Reading Center recognized that the thermistor signal was not reliable, so an equipment change was made to the ThermiSense (Salter) unit. The old configuration contained a "Therm" channel, while the new configuration contained an "Aux_AC" channel instead.
+- Two subjects (1738, 6476) have mismatched total sleep times when comparing the [**slpprdp5** variable](https://sleepdata.org/datasets/mesa/variables/slpprdp5) to the total amount of sleep time in the XML annotation files. ([Forum reference](https://sleepdata.org/forum/total-sleep-time-dismatch-issue))
 
 ## History / changelog
 
