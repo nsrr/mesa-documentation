@@ -1,3 +1,7 @@
+### June 12, 2020
+
+- Update suggested citation and acknowledgement language
+
 ### February 5, 2020
 
 - Added known issue to [polysomnography introduction](:pages_path:/polysomnography-introduction.md) about mismatched sleep times
