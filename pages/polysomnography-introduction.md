@@ -35,6 +35,9 @@ Additional criteria can be applied to limit events based on associated desaturat
 
 ## History / changelog
 
+*October 2020*
+- EDF replaced for subject 0718. The original file had certain signals that cut-off partway into the recording.
+
 *June 2018*
 - EDF and XML files reexported for subjects 1013 and 2934. The original files were missing event and staging annotations.
 
