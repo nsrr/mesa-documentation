@@ -24,3 +24,12 @@ The settings below represent the standards set at the beginning of the project. 
 | Heart Rate                  | HR        | HR       | -       | 1                  | -                     | Nonin 8000 sensor                        |
 | Derived Heart Rate          | DHR       | DHR      | -       | -                  | -                     | Derived from EK                          |
 | REF                         | -         | Fpz      | -       | -                  | -                     | -                                        |
+
+### Notes
+
+- The meaning of the position signal values are as follows:
+  - 0, Right
+  - 1, Back
+  - 2, Left
+  - 3, Prone
+  - 4, Upright
