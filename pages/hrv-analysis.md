@@ -77,4 +77,4 @@ Results have been posted for HRV analysis in the [primary MESA Sleep dataset](:f
 
 ## References
 
-The open source code used for this analysis along with a tutorial on its use is available at the NIH-sponsored Research Resource for Complex Physiologic Signals: http://physionet.org/tutorials/hrv-toolkit/
+The open source code used for this analysis along with a tutorial on its use is available at the NIH-sponsored Research Resource for Complex Physiologic Signals: https://physionet.org/content/pcst/1.0.0/
