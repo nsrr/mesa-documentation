@@ -22,7 +22,7 @@ The settings below represent the standards set at the beginning of the project. 
 | Oximetry Status             | OxStatus  | OxStatus | -       | 1                  | -                     | Nonin 8000 sensor                        |
 | SpO2                        | SpO2      | SpO2     | -       | 1                  | -                     | Nonin 8000 sensor                        |
 | Heart Rate                  | HR        | HR       | -       | 1                  | -                     | Nonin 8000 sensor                        |
-| Derived Heart Rate          | DHR       | DHR      | -       | -                  | -                     | Derived from EK                          |
+| Derived Heart Rate          | DHR       | DHR      | -       | -                  | -                     | Derived from EKG                         |
 | REF                         | -         | Fpz      | -       | -                  | -                     | -                                        |
 
 ### Notes
