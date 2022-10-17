@@ -16,7 +16,8 @@ The settings below represent the standards set at the beginning of the project. 
 | Thorax                      | Thor      | Thor     | -       | 32                 | Low Pass 10           | Compumedics Inductive Respiratory Band   |
 | Abdomen                     | Abdo      | Abdo     | -       | 32                 | Low Pass 10           | Compumedics Inductive Respiratory Band   |
 | Linked Left & Right Leg EMG | Leg       | Lleg     | Rleg    | 32                 | Low Pass 10           | Compumedics Limb Movement Sensor (Piezo) |
-| Thermistor                  | Aux_AC    | Aux_AC   | -       | 32                 | -                     | Salter ThermiSense 5700                  |
+| Thermistor                  | Aux_AC    | Aux_AC   | -       | 32                 | -                     | Salter ThermiSense 5700B                 |
+| Thermistor                  | Therm     | Therm    | -       | 32                 | -                     | Salter ThermiSense 5700B                 |
 | Position                    | Pos       | Pos      | -       | 32                 | Low Pass 10           | Built-in Device Sensor                   |
 | Plethysmography             | Pleth     | Pleth    | -       | 256                | -                     | Nonin 8000 sensor                        |
 | Oximetry Status             | OxStatus  | OxStatus | -       | 1                  | -                     | Nonin 8000 sensor                        |
