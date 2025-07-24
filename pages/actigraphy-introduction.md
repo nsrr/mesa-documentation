@@ -10,13 +10,14 @@ The [documentation folder](:files_path:/documentation) contains manuals and in-d
 
 Notes:
 
-- Dates have been removed. Each epoch contains a clock time.
+- Original dates have been removed. The `date_shifted` variable represents a reconstructed date aligned to the same day of the week in the first week of the year 2000.
+- Each epoch contains a clock time.
 - Epochs without activity counts and/or light readings typically indicate offwrist time and/or the watch's failure to provide a valid measurement for that epoch.
 - Be cognizant of excluded/invalid epochs when analyzing these data.
 
 ## Variable descriptions
 
-Each epoch-by-epoch file contains 15 columns/variables. The meanings of these variables are as follows:
+Each epoch-by-epoch file contains 17 columns/variables. The meanings of these variables are as follows:
 
 | Name                | Label                               | Units / Categories / Notes                  |
 | ------------------- | ----------------------------------- | ------------------------------------------- |
@@ -35,6 +36,8 @@ Each epoch-by-epoch file contains 15 columns/variables. The meanings of these va
 | `dayofweek`         | Day of the week                     | 1 = Sunday / 2 = Monday / etc.              |
 | `daybymidnight`     | Incrementing day number (midnight)  | Counter turns over at midnight              |
 | `daybynoon`         | Incrementing day number (noon)      | Counter turns over at noon                  |
+| `date_shifted`      | Shifted calendar date 			        | Aligned to same day of week as original date|
+| `actigraphy_month_start`| Start month of actigraphy recording| 1 = January / 2 = February / etc.        |
 
 <sup>* The wake/sleep detection algorithm runs across the entire recording, though sleep in ACTIVE intervals is never counted toward overall sleep totals. Actual sleep is tallied within REST intervals only. REST-S intervals indicate the period between sleep onset and offset.</sup>
 
@@ -54,6 +57,8 @@ The PSG start times were rounded to the nearest 30 seconds in order to match the
 **How to Use:** Import and merge the [PSG XML annotations](:pages_path:/polysomnography-introduction.md) with the ACT epoch-by-epoch data, starting at the actigraphy epoch identified in [the dataset](:files_path:/overlap).
 
 ## History / changelog
+*July 2025*
+- Add new `date_shifted` and `actigraphy_month_start` variables
 
 *June 2018*
 - Add information about how to look at overlapping PSG and ACT data
