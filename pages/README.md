@@ -38,7 +38,7 @@ Please include the following text in the Acknowledgements:
 
 ## Heart Rate Variability (HRV) Analysis
 
-Read about the [methods, validation, and results for the NSRR HRV analysis efforts](:pages_path:/hrv-analysis.md) and [browse the included variables](https://sleepdata.org/datasets/mesa/variables?folder=Heart+Rate+Variability).
+Read about the [methods, validation, and results for the NSRR HRV analysis efforts](:pages_path:/hrv-analysis.md) and [browse the included variables](https://sleepdata.org/datasets/mesa/variables?folder=Physiologic+Measurements/Cardiovascular+Assessments/Heart+Rate+Variability).
 
 ## Recent changes
 
